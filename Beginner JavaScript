@@ -1,0 +1,18 @@
+//Using Console Log and commenting
+console.log("JS is fun");
+
+//Escape characters
+console.log('I\'m learning JavaScript');
+
+//Using Multiplication
+var computers = parseInt(readLine(), 10) * 2;
+console.log(computers);
+
+
+//Booleans and Comparison Operators
+function main() {
+    var age = parseInt(readLine(), 10)
+    console.log(age>=18)
+    
+}
+
