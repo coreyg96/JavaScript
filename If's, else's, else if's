@@ -1,0 +1,52 @@
+//If Statements
+/*You are planning a vacation in August.
+You are given a program that takes the month as input.
+
+Task
+Complete the code to output "vacation", if the given month is August. Don't output anything otherwise.*/
+
+var month = readLine()
+if (month == "August") {
+    console.log("vacation");
+}
+
+//else statements
+/*The current world record for high jumping is 2.45 meters.
+You are given a program that receives as input a number that represents the height of the jump.
+
+Task
+Complete the code to:
+1. output to the console "new record" if the number is more than 2.45,
+2. output to the console "not this time" in other cases.*/
+
+var height = parseFloat(readLine(), 10)
+if (height > 2.45){
+    console.log("new record")
+} else {
+    (height <= 2.45)
+    console.log("not this time")
+}
+
+//else if's
+
+/* Тhe result of an exam will be determined as follows։
+If the score is
+88 and above => excellent
+40-87 => good
+0-39 => fail
+
+You are given a program that takes the score as input.
+
+Task
+Complete the code to output the corresponding result (excellent, good, fail) to the console. */
+
+var score = parseInt(readLine(), 10)
+if (score >= 88){
+    console.log("excellent")
+}
+else if (score >= 40){
+    console.log("good")
+}
+else {
+    console.log("fail")
+}
