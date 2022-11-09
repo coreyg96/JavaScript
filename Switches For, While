@@ -49,4 +49,15 @@ for (var i = 0; i < 3; i++){
     console.log(expression);
 }
 
+//While Loops
 
+/*Write a program-timer, that will take the count of seconds as input and output to the console all the seconds until timer stops.*/
+
+function main() {
+    var seconds = parseInt(readLine(), 10)
+    while(seconds >= 0){
+        console.log(seconds)
+        seconds--
+    }
+    
+}
